@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Small demo-project to demonstrate the problem described in https://github.com/rails/rails/issues/34408
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Initialize the database with seed:
+```
+rails db:setup
+```
+* Start the server
+```
+rails s
+```
+* Goto http://localhost:3000 and follow the instructions.
