@@ -30,6 +30,23 @@
   </tbody>
 </table>
 
+<p>
+  Same table without cache:
+</p>
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Updated at</th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <%= render @products %>
+  </tbody>
+</table>
+
 <br>
 
 <%= link_to 'Page 1', products_path(page: 1) %>
